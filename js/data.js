@@ -649,11 +649,11 @@ const rebateLinks = [
    ============================================ */
 const resourceLinks = [
   {
-    name: "职场AI提示词合集",
-    icon: "📕",
-    desc: "行政/销售/新媒体/文案 四大类100条精选提示词",
-    url: "#",
-    size: "100条",
+    name: "Hermes AI Desktop 客户端",
+    icon: "🤖",
+    desc: "AI 智能编程工具桌面版，支持代码补全、对话、项目管理",
+    url: "https://hermes-ai.net/zh/desktop/#downloads",
+    size: "最新",
     placeholder: false
   },
   {
