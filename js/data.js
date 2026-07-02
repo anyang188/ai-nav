@@ -672,6 +672,30 @@ const resourceLinks = [
     size: "GitHub",
     placeholder: false
   },
+  {
+    name: "Ollama",
+    icon: "🦙",
+    desc: "本地大语言模型运行框架，一键运行 100+ 模型",
+    url: "https://ollama.com/download/windows",
+    size: "Windows",
+    placeholder: false
+  },
+  {
+    name: "LM Studio",
+    icon: "🧪",
+    desc: "本地 LLM 推理 GUI，支持 GGUF 模型，隐私安全",
+    url: "https://lmstudio.ai/download",
+    size: "跨平台",
+    placeholder: false
+  },
+  {
+    name: "91PAN 云盘搜索",
+    icon: "☁️",
+    desc: "阿里云盘资源搜索引擎，海量影视/文档/工具资源一站搜",
+    url: "https://www.91panta.cn/",
+    size: "在线",
+    placeholder: false
+  },
 ];
 
 /* ============================================
