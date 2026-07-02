@@ -665,11 +665,11 @@ const resourceLinks = [
     placeholder: false
   },
   {
-    name: "WPS/Office 办公模板",
-    icon: "📊",
-    desc: "周报/月报/述职/年终总结 精选模板合集",
-    url: "#",
-    size: "50+套",
+    name: "OpenClaw Windows Node",
+    icon: "🐾",
+    desc: "OpenClaw 项目的 Windows 节点客户端，开源可在 GitHub 查看",
+    url: "https://github.com/openclaw/openclaw-windows-node/",
+    size: "GitHub",
     placeholder: false
   },
   {
