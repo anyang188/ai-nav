@@ -742,6 +742,16 @@ const downloadLinks = [
     url: "https://mobile.yangkeduo.com/duo_coupon_landing.html?goods_id=187002327358&pid=44544265_316733786&goods_sign=E9j2ieB776pt935xwvfA0_W2pKHrMwqT_JIbUtuRcN&cpsSign=CC_260702_44544265_316733786_1b6b030d98a1335846333301edc41d0e&_x_ddjb_act=%7B%22st%22%3A%221%22%7D&duoduo_type=2",
     platform: "拼多多"
   },
+  {
+    name: "多口味全麦黑麦面包",
+    icon: "🍞",
+    desc: "无蔗糖0蔗糖健身代餐，健康粗粮主食早餐整箱装",
+    price: "23.04",
+    couponPrice: "22.04",
+    reason: "抢购！优质商品，数量有限！",
+    url: "https://mobile.yangkeduo.com/duo_coupon_landing.html?goods_id=578357087797&pid=44544265_316733786&goods_sign=E9D2JMKKMKFt935xwvPA00pBpG9XfcT7_JQzISbuJBm&cpsSign=CC_260702_44544265_316733786_56d94f2b649f1a702f6dd72230cc9da9&_x_ddjb_act=%7B%22st%22%3A%221%22%7D&duoduo_type=2",
+    platform: "拼多多"
+  },
 ];
 
 /* ============================================
