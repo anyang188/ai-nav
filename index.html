@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 导航 - 职场人AI工具箱</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- 顶部导航 -->
+<header class="header">
+  <div class="header-inner">
+    <div class="logo">
+      <span class="logo-icon">⚡</span>
+      <h1>AI 导航</h1>
+      <span class="logo-sub">职场人AI工具箱</span>
+    </div>
+    <div class="header-tabs" id="headerTabs">
+      <button class="header-tab active" data-tab="nav">🌐 网址导航</button>
+      <button class="header-tab" data-tab="prompts">💬 提示词库</button>
+      <button class="header-tab" data-tab="rebate">💰 返利链接</button>
+      <button class="header-tab" data-tab="downloads">📦 资源下载</button>
+    </div>
+  </div>
+</header>
+
+<!-- 搜索栏 -->
+<div class="search-bar" id="searchBar">
+  <div class="search-inner">
+    <span class="search-icon">🔍</span>
+    <input type="text" id="searchInput" placeholder="搜索网址、提示词、工具..." autocomplete="off">
+    <span class="search-shortcut">Ctrl+K</span>
+  </div>
+</div>
+
+<!-- ========== Tab 1: 网址导航 ========== -->
+<div class="tab-content active" id="tab-nav">
+  <div class="nav-container" id="navContainer">
+    <!-- 动态渲染 -->
+  </div>
+</div>
+
+<!-- ========== Tab 2: 提示词库 ========== -->
+<div class="tab-content" id="tab-prompts">
+  <div class="prompts-header">
+    <div class="prompts-categories" id="promptCategories">
+      <button class="prompt-cat active" data-cat="all">全部</button>
+      <button class="prompt-cat" data-cat="行政">🏢 行政</button>
+      <button class="prompt-cat" data-cat="销售">💼 销售</button>
+      <button class="prompt-cat" data-cat="新媒体">📱 新媒体</button>
+      <button class="prompt-cat" data-cat="文案">✍️ 文案</button>
+    </div>
+    <div class="prompts-stats">
+      <span id="promptCount">100 条提示词</span>
+    </div>
+  </div>
+  <div class="prompts-grid" id="promptsGrid">
+    <!-- 动态渲染 -->
+  </div>
+  <div class="prompts-empty" id="promptsEmpty" style="display:none">
+    <span>😕</span>
+    <p>没有找到匹配的提示词</p>
+  </div>
+</div>
+
+<!-- ========== Tab 3: 返利链接 ========== -->
+<div class="tab-content" id="tab-rebate">
+  <div class="rebate-container">
+    <div class="section-header">
+      <h2>🤝 AI 工具返利 / 推广链接</h2>
+      <p class="section-desc">通过以下链接注册或购买，你可以获得额外优惠</p>
+    </div>
+    <div class="rebate-grid" id="rebateGrid">
+      <!-- 动态渲染 -->
+    </div>
+    <div class="rebate-tip">
+      💡 <strong>如何添加返利链接？</strong> 打开 <code>js/data.js</code>，编辑 <code>rebateLinks</code> 数组即可。
+    </div>
+  </div>
+</div>
+
+<!-- ========== Tab 4: 资源下载 ========== -->
+<div class="tab-content" id="tab-downloads">
+  <div class="downloads-container">
+    <div class="section-header">
+      <h2>📦 资源下载</h2>
+      <p class="section-desc">AI 工具安装包、提示词合集、模板资源等</p>
+    </div>
+    <div class="downloads-grid" id="downloadsGrid">
+      <!-- 动态渲染 -->
+    </div>
+    <div class="rebate-tip">
+      💡 <strong>如何添加下载链接？</strong> 打开 <code>js/data.js</code>，编辑 <code>downloadLinks</code> 数组即可。
+    </div>
+  </div>
+</div>
+
+<!-- Toast 提示 -->
+<div class="toast" id="toast"></div>
+
+<!-- 返回顶部 -->
+<button class="back-top" id="backTop" title="返回顶部">⬆</button>
+
+<footer class="footer">
+  <p>AI 导航 © 2026 · 职场人AI工具箱 · Powered by <a href="https://github.com" target="_blank">GitHub Pages</a></p>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
