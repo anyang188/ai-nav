@@ -649,45 +649,13 @@ const rebateLinks = [
    ============================================ */
 const downloadLinks = [
   {
-    name: "AI 提示词合集 PDF",
-    icon: "📕",
-    desc: "100 条职场 AI 提示词合集",
-    url: "#",
-    placeholder: true
-  },
-  {
-    name: "ChatGPT 桌面客户端",
-    icon: "💻",
-    desc: "ChatGPT Windows/Mac 客户端",
-    url: "#",
-    placeholder: true
-  },
-  {
-    name: "Stable Diffusion 整合包",
-    icon: "🎯",
-    desc: "一键部署 SD 绘图环境",
-    url: "#",
-    placeholder: true
-  },
-  {
-    name: "AI 工具合集 Excel",
-    icon: "📊",
-    desc: "200+ AI 工具分类汇总表",
-    url: "#",
-    placeholder: true
-  },
-  {
-    name: "提示词工程指南",
-    icon: "📖",
-    desc: "Prompt Engineering 学习手册",
-    url: "#",
-    placeholder: true
-  },
-  {
-    name: "新媒体运营模板包",
-    icon: "📱",
-    desc: "公众号/小红书/抖音运营模板",
-    url: "#",
-    placeholder: true
+    name: "唯格免驱动USB无线网卡5G",
+    icon: "📡",
+    desc: "WiFi6 外置网络发射接收器，台式机/笔记本通用",
+    price: "39.90",
+    couponPrice: "38.90",
+    reason: "性价比高！最优选择！",
+    url: "https://mobile.yangkeduo.com/duo_coupon_landing.html?goods_id=187002327358&pid=44544265_316733786&goods_sign=E9j2ieB776pt935xwvfA0_W2pKHrMwqT_JIbUtuRcN&cpsSign=CC_260702_44544265_316733786_1b6b030d98a1335846333301edc41d0e&_x_ddjb_act=%7B%22st%22%3A%221%22%7D&duoduo_type=2",
+    platform: "拼多多"
   },
 ];

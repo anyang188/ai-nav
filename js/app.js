@@ -113,7 +113,7 @@
     rebateGrid.innerHTML = html;
   }
 
-  // ===== 渲染资源下载 =====
+  // ===== 渲染好物推荐 =====
   function renderDownloads() {
     let html = '';
     downloadLinks.forEach(link => {
@@ -122,11 +122,21 @@
       html += '<div class="download-card-info">';
       html += '<div class="download-card-name">' + link.name + '</div>';
       html += '<div class="download-card-desc">' + link.desc + '</div>';
+      html += '<div class="download-card-price">'
+        + '<span class="price-label">' + link.platform + '</span>'
+        + '<span class="price-original">¥' + link.price + '</span>';
+      if (link.couponPrice && link.couponPrice !== link.price) {
+        html += '<span class="price-coupon">券后 ¥' + link.couponPrice + '</span>';
+      }
+      if (link.reason) {
+        html += '<span class="price-reason">' + link.reason + '</span>';
+      }
+      html += '</div>';
       html += '</div>';
       if (link.placeholder) {
-        html += '<span class="download-card-btn" style="background:#94A3B8;cursor:default;" title="占位链接，在 data.js 中编辑">待配置</span>';
+        html += '<span class="download-card-btn" style="background:#94A3B8;cursor:default;" title="占位链接">待配置</span>';
       } else {
-        html += '<a href="' + link.url + '" target="_blank" class="download-card-btn">下载</a>';
+        html += '<a href="' + link.url + '" target="_blank" class="download-card-btn">立即购买</a>';
       }
       html += '</div>';
     });
