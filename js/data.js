@@ -703,6 +703,16 @@ const resourceLinks = [
    ============================================ */
 const downloadLinks = [
   {
+    name: "凯叔讲故事儿童早教机",
+    icon: "🧸",
+    desc: "儿童故事机+家教机+学习机+益智启蒙玩具，海量内容",
+    price: "209.00",
+    couponPrice: "79.00",
+    reason: "机不可失！赶紧入手！",
+    url: "https://mobile.yangkeduo.com/duo_coupon_landing.html?goods_id=564861195463&pid=44544265_316733786&goods_sign=E932Ie4XKlNt9351wvTA09ITBBi-lb1I_Jogf2tFfG&zs_duo_id=25167448&cpsSign=CC_260702_44544265_316733786_d4458e29934d63d1de1c62d338da2587&_x_ddjb_act=%7B%22st%22%3A%221%22%7D&duoduo_type=2",
+    platform: "拼多多"
+  },
+  {
     name: "唯格免驱动USB无线网卡5G",
     icon: "📡",
     desc: "WiFi6 外置网络发射接收器，台式机/笔记本通用",
