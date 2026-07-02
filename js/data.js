@@ -587,46 +587,60 @@ const promptsData = [
    ============================================ */
 const rebateLinks = [
   {
-    name: "ChatGPT Plus",
-    icon: "💬",
-    desc: "通过此链接订阅 ChatGPT Plus 享专属优惠",
-    url: "#",
-    placeholder: true
+    name: "淘宝联盟（阿里妈妈）",
+    icon: "🛒",
+    desc: "淘宝/天猫最大CPS平台，佣金1%-50%，零门槛注册",
+    url: "https://pub.alimama.com",
+    tag: "首推"
   },
   {
-    name: "Claude Pro",
-    icon: "🧠",
-    desc: "Claude Pro 订阅返利链接",
-    url: "#",
-    placeholder: true
+    name: "京东联盟",
+    icon: "🐶",
+    desc: "京东官方CPS推广，3C数码家电佣金高，物流强背书",
+    url: "https://union.jd.com",
+    tag: "热门"
   },
   {
-    name: "Midjourney",
-    icon: "🖼️",
-    desc: "Midjourney 订阅返利链接",
-    url: "#",
-    placeholder: true
+    name: "多多进宝",
+    icon: "📱",
+    desc: "拼多多CPS平台，日用高频商品佣金稳定，下沉市场利器",
+    url: "https://jinbao.pinduoduo.com",
+    tag: ""
   },
   {
-    name: "Cursor Pro",
-    icon: "🖱️",
-    desc: "Cursor 编程助手 Pro 版返利",
-    url: "#",
-    placeholder: true
+    name: "美团联盟",
+    icon: "🍔",
+    desc: "外卖/到店/酒店/旅游全覆盖，高频消费佣金持续入账",
+    url: "https://union.meituan.com",
+    tag: "推荐"
   },
   {
-    name: "Notion AI",
-    icon: "📋",
-    desc: "Notion AI 订阅优惠链接",
-    url: "#",
-    placeholder: true
+    name: "饿了么推广",
+    icon: "🛵",
+    desc: "饿了么CPS（淘金联盟），外卖场景高频复购",
+    url: "https://union.ele.me",
+    tag: ""
   },
   {
-    name: "Gamma Pro",
-    icon: "📊",
-    desc: "Gamma AI PPT 高级版返利",
-    url: "#",
-    placeholder: true
+    name: "唯品会联盟",
+    icon: "👗",
+    desc: "品牌特卖CPS，女性用户占比高，客单价可观",
+    url: "https://cps.vip.com",
+    tag: ""
+  },
+  {
+    name: "携程联盟",
+    icon: "✈️",
+    desc: "酒店/机票/火车票/旅游度假，单笔佣金高",
+    url: "https://pages.ctrip.com/commerce/promote/alliance",
+    tag: ""
+  },
+  {
+    name: "知乎好物推荐",
+    icon: "📝",
+    desc: "写文章、回答挂购物卡，知识+带货双收益",
+    url: "https://www.zhihu.com/creator",
+    tag: ""
   },
 ];
 

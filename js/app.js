@@ -100,7 +100,7 @@
       html += '<div class="rebate-card">';
       html += '<div class="rebate-card-icon">' + link.icon + '</div>';
       html += '<div class="rebate-card-info">';
-      html += '<div class="rebate-card-name">' + link.name + '</div>';
+      html += '<div class="rebate-card-name">' + link.name + (link.tag ? ' <span class="site-tag tag-hot">' + link.tag + '</span>' : '') + '</div>';
       html += '<div class="rebate-card-desc">' + link.desc + '</div>';
       html += '</div>';
       if (link.placeholder) {
