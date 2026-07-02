@@ -67,6 +67,21 @@ const navData = [
       { name: "抖音", icon: "🎵", desc: "短视频社交平台", url: "https://www.douyin.com", tag: "" },
     ]
   },
+  {
+    category: "🔌 API 地址 · Token/用量查询",
+    sites: [
+      { name: "DeepSeek API", icon: "🔍", desc: "DeepSeek 开发者控制台，查用量/Token/账单", url: "https://platform.deepseek.com/usage", tag: "国产" },
+      { name: "豆包 API", icon: "🫘", desc: "火山引擎模型服务用量查询", url: "https://console.volcengine.com/ark/region:ark+cn-beijing/usage", tag: "国产" },
+      { name: "通义千问 API", icon: "☁️", desc: "阿里云百炼平台模型用量统计", url: "https://bailian.console.aliyun.com/#/usage-statistics", tag: "国产" },
+      { name: "文心一言 API", icon: "📝", desc: "百度千帆平台模型调用统计", url: "https://console.bce.baidu.com/qianfan/ais/console/onlineService", tag: "国产" },
+      { name: "智谱 API", icon: "🎓", desc: "智谱AI开放平台用量查询", url: "https://open.bigmodel.cn/usercenter/tab/usage", tag: "国产" },
+      { name: "Kimi API", icon: "🌙", desc: "月之暗面开放平台，查余额/调用量", url: "https://platform.moonshot.cn/console/info", tag: "国产" },
+      { name: "小米 API", icon: "📱", desc: "小米AI大模型平台控制台", url: "https://dev.mi.com/xiaoai/platform/docs/api", tag: "国产" },
+      { name: "OpenAI API", icon: "💬", desc: "OpenAI 用量/Token/账单查询 🪜", url: "https://platform.openai.com/usage", tag: "" },
+      { name: "Claude API", icon: "🧠", desc: "Anthropic 开发者控制台 🪜", url: "https://console.anthropic.com/settings/usage", tag: "" },
+      { name: "Gemini API", icon: "💎", desc: "Google AI Studio 用量查询 🪜", url: "https://aistudio.google.com/app/apikey", tag: "" },
+    ]
+  },
 ];
 
 /* ============================================
