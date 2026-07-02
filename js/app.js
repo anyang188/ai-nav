@@ -102,8 +102,14 @@
       html += '<div class="rebate-card-info">';
       html += '<div class="rebate-card-name">' + link.name + (link.size ? ' <span class="size-badge">' + link.size + '</span>' : '') + '</div>';
       html += '<div class="rebate-card-desc">' + link.desc + '</div>';
+      if (link.framework) {
+        html += '<div class="rebate-card-desc" style="color:#4F6EF7;font-size:12px;">🔧 框架: ' + link.framework + '</div>';
+      }
+      if (link.ram) {
+        html += '<div class="rebate-card-desc" style="color:#D97706;font-size:12px;">💾 内存要求: ' + link.ram + '</div>';
+      }
       html += '</div>';
-      html += '<a href="' + link.url + '" target="_blank" class="rebate-card-btn">下载</a>';
+      html += '<a href="' + link.url + '" target="_blank" class="rebate-card-btn">' + (link.framework ? '获取' : '下载') + '</a>';
       html += '</div>';
     });
     rebateGrid.innerHTML = html;

@@ -689,6 +689,36 @@ const resourceLinks = [
     placeholder: false
   },
   {
+    name: "Qwen2.5-32B 模型",
+    icon: "⭐",
+    desc: "通义千问最强开源模型，性价比最佳，40GB 内存可流畅运行",
+    framework: "Ollama",
+    url: "https://ollama.com/library/qwen2.5:32b",
+    size: "19GB",
+    ram: "需要 32GB+ 内存",
+    placeholder: false
+  },
+  {
+    name: "Qwen2.5-7B 模型",
+    icon: "🚀",
+    desc: "轻量快速，适合低配电脑或日常使用",
+    framework: "Ollama",
+    url: "https://ollama.com/library/qwen2.5:7b",
+    size: "4.7GB",
+    ram: "需要 8GB+ 内存",
+    placeholder: false
+  },
+  {
+    name: "Llama 3.3-70B 模型",
+    icon: "🦙",
+    desc: "Meta 最强开源模型，英语能力极佳",
+    framework: "LM Studio",
+    url: "https://lmstudio.ai/models?q=llama-3.3-70b",
+    size: "42GB",
+    ram: "需要 64GB+ 内存",
+    placeholder: false
+  },
+  {
     name: "Canva 中文设计资源包",
     icon: "🎨",
     desc: "海报/宣传单/社交媒体配图模板",
@@ -737,5 +767,74 @@ const downloadLinks = [
     reason: "性价比高！最优选择！",
     url: "https://mobile.yangkeduo.com/duo_coupon_landing.html?goods_id=187002327358&pid=44544265_316733786&goods_sign=E9j2ieB776pt935xwvfA0_W2pKHrMwqT_JIbUtuRcN&cpsSign=CC_260702_44544265_316733786_1b6b030d98a1335846333301edc41d0e&_x_ddjb_act=%7B%22st%22%3A%221%22%7D&duoduo_type=2",
     platform: "拼多多"
+  },
+];
+
+/* ============================================
+   AI 模型下载数据
+   ============================================ */
+const modelData = [
+  {
+    name: "Qwen2.5-72B",
+    icon: "🔥",
+    desc: "阿里巴巴通义千问最强开源模型，中英文双语，推理能力顶尖",
+    framework: "Ollama",
+    url: "https://ollama.com/library/qwen2.5:72b",
+    size: "43GB",
+    ram: "需要 80GB+ 内存"
+  },
+  {
+    name: "Qwen2.5-32B",
+    icon: "⭐",
+    desc: "中等体量，性价比最佳，40GB 内存可流畅运行",
+    framework: "Ollama",
+    url: "https://ollama.com/library/qwen2.5:32b",
+    size: "19GB",
+    ram: "需要 32GB+ 内存"
+  },
+  {
+    name: "Qwen2.5-7B",
+    icon: "🚀",
+    desc: "轻量快速，适合低配电脑或日常使用",
+    framework: "Ollama",
+    url: "https://ollama.com/library/qwen2.5:7b",
+    size: "4.7GB",
+    ram: "需要 8GB+ 内存"
+  },
+  {
+    name: "Llama 3.3-70B",
+    icon: "🦙",
+    desc: "Meta 最强的开源模型，英语能力极佳",
+    framework: "LM Studio",
+    url: "https://lmstudio.ai/models?q=llama-3.3-70b",
+    size: "42GB",
+    ram: "需要 64GB+ 内存"
+  },
+  {
+    name: "Mistral Large",
+    icon: "🇫🇷",
+    desc: "法国 Mistral AI 旗舰，法语能力强，逻辑推理优秀",
+    framework: "Ollama",
+    url: "https://ollama.com/library/mistral-large",
+    size: "30GB",
+    ram: "需要 48GB+ 内存"
+  },
+  {
+    name: "Phi-3.5-mini",
+    icon: "💎",
+    desc: "微软出品，小而精悍，推理能力强，适合笔记本",
+    framework: "Ollama",
+    url: "https://ollama.com/library/phi3.5",
+    size: "2.3GB",
+    ram: "需要 4GB+ 内存"
+  },
+  {
+    name: "Gemma 2-27B",
+    icon: "🔮",
+    desc: "Google 开源，编码能力强，比肩 Qwen 7B",
+    framework: "Ollama",
+    url: "https://ollama.com/library/gemma2:27b",
+    size: "16GB",
+    ram: "需要 32GB+ 内存"
   },
 ];
