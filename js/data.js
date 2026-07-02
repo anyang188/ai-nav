@@ -3,6 +3,17 @@
    ============================================ */
 const navData = [
   {
+    category: "🌐 常用网站",
+    sites: [
+      { name: "Google", icon: "🔎", desc: "全球搜索引擎", url: "https://www.google.com", tag: "" },
+      { name: "百度", icon: "🔍", desc: "中文搜索引擎", url: "https://www.baidu.com", tag: "" },
+      { name: "知乎", icon: "❓", desc: "中文问答社区", url: "https://www.zhihu.com", tag: "" },
+      { name: "B站", icon: "📺", desc: "哔哩哔哩视频平台", url: "https://www.bilibili.com", tag: "" },
+      { name: "小红书", icon: "📕", desc: "生活方式分享平台", url: "https://www.xiaohongshu.com", tag: "" },
+      { name: "抖音", icon: "🎵", desc: "短视频社交平台", url: "https://www.douyin.com", tag: "" },
+    ]
+  },
+  {
     category: "🤖 AI 对话工具",
     sites: [
       { name: "DeepSeek", icon: "🔍", desc: "国产开源推理大模型", url: "https://chat.deepseek.com", tag: "免费" },
@@ -46,28 +57,6 @@ const navData = [
     ]
   },
   {
-    category: "💻 开发者工具",
-    sites: [
-      { name: "GitHub", icon: "🐙", desc: "全球最大代码托管平台", url: "https://github.com", tag: "" },
-      { name: "GitHub Copilot", icon: "🤖", desc: "AI 编程助手 🪜", url: "https://github.com/features/copilot", tag: "付费" },
-      { name: "Cursor", icon: "🖱️", desc: "AI 原生代码编辑器 🪜", url: "https://cursor.sh", tag: "热门" },
-      { name: "Vercel", icon: "▲", desc: "前端部署平台 🪜", url: "https://vercel.com", tag: "免费" },
-      { name: "Cloudflare", icon: "☁️", desc: "CDN/边缘计算平台 🪜", url: "https://www.cloudflare.com", tag: "" },
-      { name: "CodePen", icon: "🖊️", desc: "在线前端代码编辑 🪜", url: "https://codepen.io", tag: "" },
-    ]
-  },
-  {
-    category: "🌐 常用网站",
-    sites: [
-      { name: "Google", icon: "🔎", desc: "全球搜索引擎", url: "https://www.google.com", tag: "" },
-      { name: "百度", icon: "🔍", desc: "中文搜索引擎", url: "https://www.baidu.com", tag: "" },
-      { name: "知乎", icon: "❓", desc: "中文问答社区", url: "https://www.zhihu.com", tag: "" },
-      { name: "B站", icon: "📺", desc: "哔哩哔哩视频平台", url: "https://www.bilibili.com", tag: "" },
-      { name: "小红书", icon: "📕", desc: "生活方式分享平台", url: "https://www.xiaohongshu.com", tag: "" },
-      { name: "抖音", icon: "🎵", desc: "短视频社交平台", url: "https://www.douyin.com", tag: "" },
-    ]
-  },
-  {
     category: "🔌 API 地址 · Token/用量查询",
     sites: [
       { name: "DeepSeek API", icon: "🔍", desc: "DeepSeek 开发者控制台，查用量/Token/账单", url: "https://platform.deepseek.com/usage", tag: "国产" },
@@ -80,6 +69,17 @@ const navData = [
       { name: "OpenAI API", icon: "💬", desc: "OpenAI 用量/Token/账单查询 🪜", url: "https://platform.openai.com/usage", tag: "" },
       { name: "Claude API", icon: "🧠", desc: "Anthropic 开发者控制台 🪜", url: "https://console.anthropic.com/settings/usage", tag: "" },
       { name: "Gemini API", icon: "💎", desc: "Google AI Studio 用量查询 🪜", url: "https://aistudio.google.com/app/apikey", tag: "" },
+    ]
+  },
+  {
+    category: "💻 开发者工具",
+    sites: [
+      { name: "GitHub", icon: "🐙", desc: "全球最大代码托管平台", url: "https://github.com", tag: "" },
+      { name: "GitHub Copilot", icon: "🤖", desc: "AI 编程助手 🪜", url: "https://github.com/features/copilot", tag: "付费" },
+      { name: "Cursor", icon: "🖱️", desc: "AI 原生代码编辑器 🪜", url: "https://cursor.sh", tag: "热门" },
+      { name: "Vercel", icon: "▲", desc: "前端部署平台 🪜", url: "https://vercel.com", tag: "免费" },
+      { name: "Cloudflare", icon: "☁️", desc: "CDN/边缘计算平台 🪜", url: "https://www.cloudflare.com", tag: "" },
+      { name: "CodePen", icon: "🖊️", desc: "在线前端代码编辑 🪜", url: "https://codepen.io", tag: "" },
     ]
   },
 ];
