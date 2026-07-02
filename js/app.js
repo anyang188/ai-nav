@@ -103,7 +103,7 @@
       html += '<div class="rebate-card-name">' + link.name + (link.size ? ' <span class="size-badge">' + link.size + '</span>' : '') + '</div>';
       html += '<div class="rebate-card-desc">' + link.desc + '</div>';
       html += '</div>';
-      html += '<a href="' + link.url + '" target="_blank" class="rebate-card-btn">下载</a>';
+      html += '<a href="' + link.url + '" target="_blank" class="rebate-card-btn">访问</a>';
       html += '</div>';
     });
     rebateGrid.innerHTML = html;

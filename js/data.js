@@ -664,7 +664,7 @@ const rebateLinks = [
    ============================================ */
 const resourceLinks = [
   {
-    name: "Hermes AI Desktop 客户端",
+    name: "Hermes AI 桌面版",
     icon: "🤖",
     desc: "AI 智能编程工具桌面版，支持代码补全、对话、项目管理",
     url: "https://hermes-ai.net/zh/desktop/#downloads",
@@ -672,7 +672,7 @@ const resourceLinks = [
     placeholder: false
   },
   {
-    name: "WorkBuddy 官方网站",
+    name: "WorkBuddy",
     icon: "💬",
     desc: "WorkBuddy — 下一代 AI 编程助手工作台",
     url: "https://www.workbuddy.cn/",
@@ -680,7 +680,7 @@ const resourceLinks = [
     placeholder: false
   },
   {
-    name: "OpenClaw Windows Node",
+    name: "OpenClaw Windows 客户端",
     icon: "🐾",
     desc: "OpenClaw 项目的 Windows 节点客户端，开源可在 GitHub 查看",
     url: "https://github.com/openclaw/openclaw-windows-node/",
