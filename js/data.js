@@ -5,28 +5,28 @@ const navData = [
   {
     category: "🤖 AI 对话工具",
     sites: [
-      { name: "ChatGPT", icon: "💬", desc: "OpenAI 官方对话模型", url: "https://chat.openai.com", tag: "推荐" },
-      { name: "Claude", icon: "🧠", desc: "Anthropic 长文本推理", url: "https://claude.ai", tag: "热门" },
       { name: "DeepSeek", icon: "🔍", desc: "国产开源推理大模型", url: "https://chat.deepseek.com", tag: "免费" },
       { name: "Kimi", icon: "🌙", desc: "月之暗面 长文本助手", url: "https://kimi.moonshot.cn", tag: "推荐" },
       { name: "豆包", icon: "🫘", desc: "字节跳动 AI 对话助手", url: "https://www.doubao.com", tag: "免费" },
       { name: "通义千问", icon: "☁️", desc: "阿里云大语言模型", url: "https://tongyi.aliyun.com", tag: "" },
       { name: "文心一言", icon: "📝", desc: "百度知识增强大模型", url: "https://yiyan.baidu.com", tag: "" },
       { name: "智谱清言", icon: "🎓", desc: "GLM 系列模型对话", url: "https://chatglm.cn", tag: "" },
-      { name: "Grok", icon: "🐦", desc: "xAI 实时信息模型", url: "https://grok.com", tag: "" },
-      { name: "Gemini", icon: "💎", desc: "Google 多模态模型", url: "https://gemini.google.com", tag: "" },
-      { name: "Poe", icon: "🦜", desc: "聚合多种 AI 模型平台", url: "https://poe.com", tag: "聚合" },
-      { name: "Copilot", icon: "🤝", desc: "微软 AI 编程助手", url: "https://copilot.microsoft.com", tag: "" },
+      { name: "ChatGPT", icon: "💬", desc: "OpenAI 官方对话模型 🪜", url: "https://chat.openai.com", tag: "推荐" },
+      { name: "Claude", icon: "🧠", desc: "Anthropic 长文本推理 🪜", url: "https://claude.ai", tag: "热门" },
+      { name: "Grok", icon: "🐦", desc: "xAI 实时信息模型 🪜", url: "https://grok.com", tag: "" },
+      { name: "Gemini", icon: "💎", desc: "Google 多模态模型 🪜", url: "https://gemini.google.com", tag: "" },
+      { name: "Poe", icon: "🦜", desc: "聚合多种 AI 模型平台 🪜", url: "https://poe.com", tag: "聚合" },
+      { name: "Copilot", icon: "🤝", desc: "微软 AI 编程助手 🪜", url: "https://copilot.microsoft.com", tag: "" },
     ]
   },
   {
     category: "🎨 AI 创作工具",
     sites: [
-      { name: "Midjourney", icon: "🖼️", desc: "顶级 AI 图像生成", url: "https://www.midjourney.com", tag: "付费" },
+      { name: "Midjourney", icon: "🖼️", desc: "顶级 AI 图像生成 🪜", url: "https://www.midjourney.com", tag: "付费" },
       { name: "Stable Diffusion", icon: "🎯", desc: "开源 AI 图像模型", url: "https://stablediffusionweb.com", tag: "开源" },
       { name: "可灵 AI", icon: "🎬", desc: "快手 AI 视频生成", url: "https://klingai.kuaishou.com", tag: "热门" },
       { name: "即梦 AI", icon: "✨", desc: "字节跳动 AI 图像视频", url: "https://jimeng.jianying.com", tag: "" },
-      { name: "Suno", icon: "🎵", desc: "AI 音乐生成", url: "https://suno.com", tag: "热门" },
+      { name: "Suno", icon: "🎵", desc: "AI 音乐生成 🪜", url: "https://suno.com", tag: "热门" },
       { name: "剪映", icon: "✂️", desc: "AI 智能视频剪辑", url: "https://www.jianying.com", tag: "免费" },
       { name: "Canva", icon: "🎨", desc: "在线 AI 设计平台", url: "https://www.canva.cn", tag: "推荐" },
       { name: "Remove.bg", icon: "🖌️", desc: "AI 一键抠图", url: "https://www.remove.bg/zh", tag: "免费" },
@@ -35,25 +35,25 @@ const navData = [
   {
     category: "📊 效率办公",
     sites: [
-      { name: "Notion AI", icon: "📋", desc: "AI 驱动的协作文档", url: "https://www.notion.so", tag: "推荐" },
+      { name: "Notion AI", icon: "📋", desc: "AI 驱动的协作文档 🪜", url: "https://www.notion.so", tag: "推荐" },
       { name: "飞书", icon: "🕊️", desc: "字节跳动办公协作", url: "https://www.feishu.cn", tag: "热门" },
       { name: "钉钉", icon: "📌", desc: "阿里智能移动办公", url: "https://www.dingtalk.com", tag: "" },
       { name: "腾讯文档", icon: "📄", desc: "腾讯在线协作文档", url: "https://docs.qq.com", tag: "免费" },
       { name: "石墨文档", icon: "📝", desc: "在线协作办公套件", url: "https://shimo.im", tag: "" },
       { name: "ProcessOn", icon: "🔷", desc: "在线流程图/思维导图", url: "https://www.processon.com", tag: "" },
       { name: "Xmind", icon: "🧩", desc: "思维导图软件", url: "https://xmind.cn", tag: "" },
-      { name: "Gamma", icon: "📊", desc: "AI 一键生成 PPT", url: "https://gamma.app", tag: "AI" },
+      { name: "Gamma", icon: "📊", desc: "AI 一键生成 PPT 🪜", url: "https://gamma.app", tag: "AI" },
     ]
   },
   {
     category: "💻 开发者工具",
     sites: [
       { name: "GitHub", icon: "🐙", desc: "全球最大代码托管平台", url: "https://github.com", tag: "" },
-      { name: "GitHub Copilot", icon: "🤖", desc: "AI 编程助手", url: "https://github.com/features/copilot", tag: "付费" },
-      { name: "Cursor", icon: "🖱️", desc: "AI 原生代码编辑器", url: "https://cursor.sh", tag: "热门" },
-      { name: "Vercel", icon: "▲", desc: "前端部署平台", url: "https://vercel.com", tag: "免费" },
-      { name: "Cloudflare", icon: "☁️", desc: "CDN/边缘计算平台", url: "https://www.cloudflare.com", tag: "" },
-      { name: "CodePen", icon: "🖊️", desc: "在线前端代码编辑", url: "https://codepen.io", tag: "" },
+      { name: "GitHub Copilot", icon: "🤖", desc: "AI 编程助手 🪜", url: "https://github.com/features/copilot", tag: "付费" },
+      { name: "Cursor", icon: "🖱️", desc: "AI 原生代码编辑器 🪜", url: "https://cursor.sh", tag: "热门" },
+      { name: "Vercel", icon: "▲", desc: "前端部署平台 🪜", url: "https://vercel.com", tag: "免费" },
+      { name: "Cloudflare", icon: "☁️", desc: "CDN/边缘计算平台 🪜", url: "https://www.cloudflare.com", tag: "" },
+      { name: "CodePen", icon: "🖊️", desc: "在线前端代码编辑 🪜", url: "https://codepen.io", tag: "" },
     ]
   },
   {
