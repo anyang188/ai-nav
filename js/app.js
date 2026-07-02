@@ -211,6 +211,9 @@
       window.scrollTo({ top: 0, behavior: 'smooth' });
     });
 
+    // 分享按钮
+    document.getElementById('shareBtn').addEventListener('click', shareSite);
+
     // 键盘快捷键 Ctrl+K 聚焦搜索
     document.addEventListener('keydown', function(e) {
       if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
@@ -326,6 +329,21 @@
 
   function escapeAttr(str) {
     return str.replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  }
+
+  // ===== 分享网站 =====
+  function shareSite() {
+    const url = 'https://anyang188.github.io/ai-nav/';
+    const text = 'AI 导航 - 职场人AI工具箱：100+ AI工具导航 + 100条职场提示词 + 资源下载';
+
+    if (navigator.share) {
+      navigator.share({ title: 'AI 导航', text: text, url: url })
+        .catch(() => {});
+    } else {
+      navigator.clipboard.writeText(url).then(function() {
+        showToast('✅ 链接已复制，快去分享给朋友吧！');
+      });
+    }
   }
 
   // ===== 启动 =====
