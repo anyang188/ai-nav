@@ -214,6 +214,21 @@
     // 分享按钮
     document.getElementById('shareBtn').addEventListener('click', shareSite);
 
+    // 联系按钮（复制微信号）
+    document.getElementById('contactBtn').addEventListener('click', function() {
+      const wechat = this.dataset.wechat;
+      navigator.clipboard.writeText(wechat).then(function() {
+        const btn = document.getElementById('contactBtn');
+        btn.classList.add('copied');
+        btn.innerHTML = '✅ 已复制微信号：' + wechat;
+        showToast('✅ 微信号已复制，快去添加好友吧！');
+        setTimeout(function() {
+          btn.classList.remove('copied');
+          btn.innerHTML = '💬 联系我定制（¥5起）';
+        }, 3000);
+      });
+    });
+
     // 键盘快捷键 Ctrl+K 聚焦搜索
     document.addEventListener('keydown', function(e) {
       if ((e.ctrlKey || e.metaKey) && e.key === 'k') {

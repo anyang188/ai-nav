@@ -574,3 +574,44 @@ body {
 .nav-card, .prompt-card, .rebate-card, .download-card {
   animation: fadeInUp 0.4s ease backwards;
 }
+
+/* ===== Contact Bar ===== */
+.contact-bar {
+  background: linear-gradient(135deg, #EEF1FE 0%, #E0E7FF 100%);
+  border-top: 1px solid var(--primary-light);
+  padding: 24px;
+}
+.contact-inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.contact-text {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex: 1;
+  min-width: 240px;
+}
+.contact-icon { font-size: 32px; flex-shrink: 0; }
+.contact-text strong { font-size: 16px; color: var(--text); }
+.contact-text p { font-size: 13px; color: var(--text-secondary); margin-top: 2px; }
+.contact-btn {
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  padding: 12px 28px;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+  transition: all var(--transition);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.contact-btn:hover { background: var(--primary-dark); transform: translateY(-1px); }
+.contact-btn.copied { background: var(--green); }
