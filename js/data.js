@@ -703,6 +703,16 @@ const resourceLinks = [
    ============================================ */
 const downloadLinks = [
   {
+    name: "杜兰轩尼丝艾草洗发水",
+    icon: "🧴",
+    desc: "艾草净爽鲜萃，清洁头皮屑/头油/头痒，也可作沐浴露",
+    price: "59.00",
+    couponPrice: "31.00",
+    reason: "特价秒杀！抢到就是赚到！嘎嘎合适",
+    url: "https://mobile.yangkeduo.com/duo_coupon_landing.html?goods_id=764259313238&pid=44544265_316733786&goods_sign=E9D2E5spWMJt935xwvPA0yo0Fw51aLOn_JQFff10Sjm&cpsSign=CC_260702_44544265_316733786_12a6ba4c7a08ec4aa17bf9ef1b5314ca&_x_ddjb_act=%7B%22st%22%3A%221%22%7D&duoduo_type=2",
+    platform: "拼多多"
+  },
+  {
     name: "睿量20W磁吸充电宝",
     icon: "🔋",
     desc: "3C认证 MagSafe 无线快充，轻薄便携，适用 iPhone",
