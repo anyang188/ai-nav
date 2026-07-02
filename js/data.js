@@ -673,6 +673,22 @@ const resourceLinks = [
     placeholder: false
   },
   {
+    name: "Ollama",
+    icon: "🦙",
+    desc: "本地大语言模型运行框架，一键运行 100+ 模型",
+    url: "https://ollama.com/download/windows",
+    size: "Windows",
+    placeholder: false
+  },
+  {
+    name: "LM Studio",
+    icon: "🧪",
+    desc: "本地 LLM 推理 GUI，支持 GGUF 模型，隐私安全",
+    url: "https://lmstudio.ai/download",
+    size: "跨平台",
+    placeholder: false
+  },
+  {
     name: "Canva 中文设计资源包",
     icon: "🎨",
     desc: "海报/宣传单/社交媒体配图模板",
