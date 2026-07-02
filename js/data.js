@@ -645,7 +645,61 @@ const rebateLinks = [
 ];
 
 /* ============================================
-   资源下载数据（占位 — 编辑此处填入实际链接）
+   资源下载数据
+   ============================================ */
+const resourceLinks = [
+  {
+    name: "职场AI提示词合集",
+    icon: "📕",
+    desc: "行政/销售/新媒体/文案 四大类100条精选提示词",
+    url: "#",
+    size: "100条",
+    placeholder: false
+  },
+  {
+    name: "新媒体运营模板包",
+    icon: "📱",
+    desc: "公众号排版/小红书封面/抖音脚本 全套模板",
+    url: "#",
+    size: "30+套",
+    placeholder: false
+  },
+  {
+    name: "WPS/Office 办公模板",
+    icon: "📊",
+    desc: "周报/月报/述职/年终总结 精选模板合集",
+    url: "#",
+    size: "50+套",
+    placeholder: false
+  },
+  {
+    name: "Canva 中文设计资源包",
+    icon: "🎨",
+    desc: "海报/宣传单/社交媒体配图模板",
+    url: "#",
+    size: "100+款",
+    placeholder: false
+  },
+  {
+    name: "Prompt Engineering 手册",
+    icon: "📖",
+    desc: "提示词工程入门到进阶学习指南（中文版）",
+    url: "#",
+    size: "PDF",
+    placeholder: false
+  },
+  {
+    name: "免费商用字体包",
+    icon: "✍️",
+    desc: "100款免费可商用中英文字体，新媒体必备",
+    url: "#",
+    size: "100款",
+    placeholder: false
+  },
+];
+
+/* ============================================
+   好物推荐数据（CPS推广商品）
    ============================================ */
 const downloadLinks = [
   {

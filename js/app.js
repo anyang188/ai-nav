@@ -93,21 +93,17 @@
     promptsGrid.innerHTML = html;
   }
 
-  // ===== 渲染返利链接 =====
+  // ===== 渲染资源下载 =====
   function renderRebate() {
     let html = '';
-    rebateLinks.forEach(link => {
+    resourceLinks.forEach(link => {
       html += '<div class="rebate-card">';
       html += '<div class="rebate-card-icon">' + link.icon + '</div>';
       html += '<div class="rebate-card-info">';
-      html += '<div class="rebate-card-name">' + link.name + (link.tag ? ' <span class="site-tag tag-hot">' + link.tag + '</span>' : '') + '</div>';
+      html += '<div class="rebate-card-name">' + link.name + (link.size ? ' <span class="size-badge">' + link.size + '</span>' : '') + '</div>';
       html += '<div class="rebate-card-desc">' + link.desc + '</div>';
       html += '</div>';
-      if (link.placeholder) {
-        html += '<span class="rebate-card-btn" style="background:#94A3B8;cursor:default;" title="占位链接，在 data.js 中编辑">待配置</span>';
-      } else {
-        html += '<a href="' + link.url + '" target="_blank" class="rebate-card-btn">前往</a>';
-      }
+      html += '<a href="' + link.url + '" target="_blank" class="rebate-card-btn">下载</a>';
       html += '</div>';
     });
     rebateGrid.innerHTML = html;
