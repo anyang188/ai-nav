@@ -706,7 +706,7 @@ const resourceLinks = [
   {
     name: "91PAN 云盘搜索",
     icon: "☁️",
-    desc: "阿里云盘资源搜索引擎，海量影视/文档/工具资源一站搜",
+    desc: "云盘资源搜索引擎，海量影视/文档/工具资源一站搜",
     url: "https://www.91panta.cn/",
     size: "在线",
     placeholder: false
