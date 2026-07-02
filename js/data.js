@@ -657,11 +657,11 @@ const resourceLinks = [
     placeholder: false
   },
   {
-    name: "新媒体运营模板包",
-    icon: "📱",
-    desc: "公众号排版/小红书封面/抖音脚本 全套模板",
-    url: "#",
-    size: "30+套",
+    name: "WorkBuddy 官方网站",
+    icon: "💬",
+    desc: "WorkBuddy — 下一代 AI 编程助手工作台",
+    url: "https://www.workbuddy.cn/",
+    size: "",
     placeholder: false
   },
   {
