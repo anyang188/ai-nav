@@ -749,6 +749,16 @@ const resourceLinks = [
    ============================================ */
 const downloadLinks = [
   {
+    name: "睿量20W磁吸充电宝",
+    icon: "🔋",
+    desc: "3C认证 MagSafe 无线快充，轻薄便携，适用 iPhone",
+    price: "74.30",
+    couponPrice: "74.30",
+    reason: "到手仅需74.30元！数量有限！",
+    url: "https://mobile.yangkeduo.com/duo_coupon_landing.html?goods_id=511797525412&pid=44544265_316733786&goods_sign=E9P21UPMhTBt935xwvbA0zalUWqPCIf9_JZfE9UN2X&cpsSign=CC_260702_44544265_316733786_50829bcb9be608b9b9be4817ada0db2f&_x_ddjb_act=%7B%22st%22%3A%221%22%7D&duoduo_type=2",
+    platform: "拼多多"
+  },
+  {
     name: "凯叔讲故事儿童早教机",
     icon: "🧸",
     desc: "儿童故事机+家教机+学习机+益智启蒙玩具，海量内容",
